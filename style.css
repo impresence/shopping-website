@@ -1,0 +1,135 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgba(255, 232, 111, 0.61);
+    background-image: url(assets/bg.svg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 1440px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 162px;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 135px;
+    width: 1290px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 16.5px;
+    font-weight: 500;
+}
+.list-item a {
+    text-decoration: none;
+    white-space: nowrap;
+    margin-right: 48px;
+    color: #000000;
+}
+.list-item:last-child a {
+    background-color: #000000;
+    color: #ffffff;
+
+    margin: 0;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+/* Main */
+
+.main {
+    position: relative;
+    display: flex;
+
+    background-color: rgba(244, 246, 245, 1);
+    width: 1290px;
+    height: 638px;
+    border-radius: 40px;
+    margin-bottom: 37px;
+}
+
+.text-block {
+    position: relative;
+    z-index: 2;
+
+    font-size: 40px;
+    /* line-height: 90px; */
+
+    margin-left: 89px;
+}
+
+.text-block h1 {
+    line-height: 90px;
+}
+
+.text-block p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text-block button {
+    padding: 20px 44px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 7.5px;
+}
+
+.girl {
+    position: relative;
+    top: 34px;
+    left: 15px;
+}
+
+.yellow-bar {
+    position: absolute;
+    z-index: 1;
+    top: 230px;
+    left: 70px;
+}
+
+.white-bar {
+    position: absolute;
+   
+    top: 50px;
+    left: 70px;
+}
+
+.stars {
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 590px;
+}
+
+/* Brand-bar */
+
+.brand-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+    width: 1440px;
+    height: 140px;
+    background-color: rgba(235, 217, 107, 1);
+}
